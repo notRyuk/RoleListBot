@@ -4,4 +4,4 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm install
 COPY . .
-CMD [ "ts-node", "bot.ts" ]
+CMD [ "npx", "ts-node", "bot.ts" ]
