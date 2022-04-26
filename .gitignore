@@ -1,0 +1,6 @@
+node_modules
+*env
+.vscode
+members.txt
+temp*.*
+test*.*
