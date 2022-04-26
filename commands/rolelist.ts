@@ -35,7 +35,7 @@ const RoleListCommand: ICommand = {
             }
         }
         for(var i=0; i<args.length; i++) {
-            var description = `**Count:** ${countList[i]}\n**Color:** ${colorList[i]}\n**Members:**\n` + "```"+descriptionList[i]+"```"
+            var description = `**Count:** ${countList[i]}\n**Color:** ${colorList[i]}\n**Members:**\n`+"```\n"+descriptionList[i]+"```"
             embedList[i].setDescription(description)
         }
         return {
